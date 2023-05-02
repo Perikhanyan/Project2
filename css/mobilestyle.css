@@ -1,0 +1,221 @@
+@media (max-width: 768px) {
+    /*----------prop--------*/
+
+    .container {
+        width: 100%;
+
+        height: calc(100vh - 129px);
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .live-sport {
+        background-color: var(--live-gray);
+        display: flex;
+
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .live-aside {
+        display: none;
+    }
+
+    .live-details {
+        width: 100%;
+        margin-left: 0;
+
+        height: calc(100vh - 129px);
+        overflow-y: auto;
+        background-color: var(--live-gray);
+
+        /*height: calc(100vh - 129px);*/
+        /*overflow-y: auto;*/
+        /*background-color: var(--live-gray);*/
+        /*display: none;*/
+    }
+
+    .add {
+        display: none;
+    }
+
+    .live-bet {
+        width: 100%;
+
+        height: 100%;
+        background-color: var(--live-gray);
+    }
+
+    .live-bet__choose {
+        padding: 8px 5px;
+
+        font-size: 13px;
+        color: var(--live-white);
+        cursor: pointer;
+    }
+
+    .live-bet__choose-filter-text {
+        display: none;
+    }
+
+    .live-bet__choose-filter {
+        justify-content: space-between;
+        max-width: 80px;
+
+        padding: 4px;
+        display: flex;
+        align-items: start;
+        cursor: pointer;
+    }
+
+    .live-bet__types {
+        padding: 15px 1px 15px 10px;
+
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .live-bet__types-scroll {
+        display: none;
+    }
+
+    .live-bet__filter {
+        padding: 15px 1px 15px 10px;
+
+        width: 100%;
+        position: relative;
+        border-top: 1px solid var(--live-bet--border2);
+        border-bottom: 1px solid var(--live-bet--border2);
+    }
+
+    .live-bet__filter-scroll {
+        display: none;
+    }
+
+    .betting-game__header {
+        display: none;
+    }
+
+    .betting-game__date {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .betting-game__changes {
+        font-size: 13px;
+        color: var(--live-green);
+    }
+
+    .betting-game__info {
+        padding: 3px 15px 0 5px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: calc(100% - 158px);
+    }
+
+    .betting-game__body {
+        padding: 3px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .live-details__result {
+        padding: 10px 5px;
+
+        border-bottom: 1px solid var(--live-bet--border2);
+    }
+
+
+
+
+    /*----------prop--------*/
+
+
+    .live-bet__sport.mobile {
+        display: block;
+    }
+
+    /*.sport__list {*/
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    /*    width: 100%;*/
+    /*    overflow-x: auto;*/
+    /*}*/
+
+    /*.sport__list::-webkit-scrollbar {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.sport__item {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    align-items: center;*/
+    /*    justify-content: center;*/
+    /*    padding: 8px 17px;*/
+    /*    cursor: pointer;*/
+    /*    background-color: var(--live-lightgray);*/
+    /*    margin-right: 1px;*/
+    /*}*/
+
+    /*.sport__info {*/
+    /*    display: flex;*/
+    /*    align-items: start;*/
+    /*    justify-content: flex-end;*/
+    /*    position: relative;*/
+    /*}*/
+
+    /*.sport__currency {*/
+    /*    position: absolute;*/
+    /*    top: -2px;*/
+    /*    right: -15px;*/
+    /*    margin-top: -2px;*/
+    /*    font-size: 13px;*/
+    /*    color: var(--live-white);*/
+    /*}*/
+
+    /*.sport__icon {*/
+    /*    width: 25px;*/
+    /*    height: 25px;*/
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    /*    justify-content: center;*/
+    /*}*/
+
+    /*.sport__img {*/
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    /*}*/
+
+    .sport__title {
+        font-size: 13px;
+        color: var(--live-white);
+        margin-top: 4px;
+    }
+
+    .live-bet__search_icon {
+        width: 15px;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .live-bet__search_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+}
